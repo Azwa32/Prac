@@ -1,4 +1,4 @@
-#Object Creation 3 but re-using the inherited display function from Person
+#Object Creation 3 but re-using the inherited display function from Person to create sub-classes
 class Person:
     def __init__(self, name, age, gender, height, weight):
         self.name = name
