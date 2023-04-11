@@ -1,3 +1,18 @@
+"""
+Exercise: Creating a Bank Account Class
+
+Create a BankAccount class that has the following properties:
+
+account_number: a unique account number (a string) that is set when the account is created
+balance: a float representing the current balance of the account
+account_type: a string representing the type of account (e.g. "checking", "savings", etc.)
+The BankAccount class should also have the following methods:
+
+deposit(amount): adds the specified amount (a float) to the account balance
+withdraw(amount): subtracts the specified amount (a float) from the account balance
+display_balance(): prints the current balance of the account
+"""
+
 class BankAccount:
     def __init__(self, account_number, balance, account_type):
         # TODO: Set instance variables for each value
