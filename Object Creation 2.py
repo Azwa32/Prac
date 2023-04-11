@@ -1,3 +1,13 @@
+"""
+Create a Playlist class that represents a collection of Track objects. The Playlist class should have the following methods:
+
+__init__: Initializes an empty playlist.
+add_track: Adds a Track object to the playlist.
+remove_track: Removes a Track object from the playlist.
+display: Displays the name, artist, duration, and rating of each Track object in the playlist.
+Here's an example of what the completed code might look like:
+"""
+
 class Track:
     def __init__(self, name, artist, duration, rating):
         self.name = name
