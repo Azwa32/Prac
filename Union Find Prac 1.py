@@ -6,6 +6,11 @@ Your task is to write a Python function called is_connected(p1: int, p2: int, co
 The function should return True if p1 and p2 are connected (either directly or indirectly), and False otherwise.
 """
 
+# Create the disjoint dataset (Union Find)
+# create a node for each item set to itself as the parent
+
+
+
 # create person nodes
 class Node:
     def __init__(self, person):
