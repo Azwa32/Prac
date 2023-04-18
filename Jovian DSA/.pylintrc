@@ -1,0 +1,3 @@
+[pylint.messages_control]
+disable = missing-docstring
+disable = invalid-name
