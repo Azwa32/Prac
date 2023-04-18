@@ -4,7 +4,7 @@ Now, let's say that two of your friends, let's call them Alice and Bob, become f
 The Union-Find algorithm helps you keep track of these connections efficiently, so you can quickly determine whether two elements are connected or not.
 Your task is to write a Python function called is_connected(p1: int, p2: int, connections: List[List[int]]) -> bool, which takes two integer values p1 and p2 (representing two people in your group), and a list of connections connections, where each element of connections is a list of two integers representing a pair of friends who are already connected.
 The function should return True if p1 and p2 are connected (either directly or indirectly), and False otherwise.
-"""
+
 
 # Create the disjoint dataset (Union Find)
 # create a node for each item set to itself as the parent
@@ -34,6 +34,8 @@ def is_connected(p1: int, p2: int, connections: List[List[int]]):
         for person in connection:
             if person not in people:
                 people.append(Node(person))
+
+"""
 
 
 

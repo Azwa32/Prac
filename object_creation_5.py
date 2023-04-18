@@ -1,5 +1,6 @@
 """
-Create a class hierarchy to represent different types of animals. The base class should be Animal, which has the following attributes:
+Create a class hierarchy to represent different types of animals. 
+The base class should be Animal, which has the following attributes:
 
 name: A string representing the animal's name
 age: An integer representing the animal's age in years
@@ -8,11 +9,21 @@ The Animal class should also have the following methods:
 
 speak(): Prints a string representing the sound the animal makes
 move(): Prints a string representing how the animal moves
-Create two subclasses of Animal: Mammal and Bird. The Mammal class should have an additional attribute fur_color, while the Bird class should have an additional attribute wing_span. Both Mammal and Bird should override the speak() and move() methods with their own implementations.
+Create two subclasses of Animal: Mammal and Bird. 
+The Mammal class should have an additional attribute fur_color, 
+while the Bird class should have an additional attribute wing_span. 
+Both Mammal and Bird should override the speak() and move() methods with their own implementations.
 
-Create two subclasses of Mammal: Dog and Cat. The Dog class should have an additional attribute breed, while the Cat class should have an additional attribute eye_color. Both Dog and Cat should override the speak() and move() methods with their own implementations.
+Create two subclasses of Mammal: Dog and Cat. 
+The Dog class should have an additional attribute breed, 
+while the Cat class should have an additional attribute eye_color. 
+Both Dog and Cat should override the speak() and move() methods with their own implementations.
 
-Create two subclasses of Bird: Eagle and Penguin. The Eagle class should have an additional attribute flight_speed, while the Penguin class should have an additional attribute swimming_speed. Both Eagle and Penguin should override the speak() and move() methods with their own implementations.
+Create two subclasses of Bird: Eagle and Penguin. 
+The Eagle class should have an additional attribute flight_speed, 
+while the Penguin class should have an additional attribute swimming_speed. 
+Both Eagle and Penguin should override the speak() 
+and move() methods with their own implementations.
 
 Create instances of each class and call their methods to verify that they work correctly.
 """
@@ -26,7 +37,7 @@ class Animal:
     def speak(self):
         print("a sound")
 
-    def move():
+    def move(self):
         print("a move")
 
 class Mammal(Animal):

@@ -42,8 +42,8 @@ class Graph:
         result = []
 
         # An index variable, used for sorted edges
-        i = 0 
-         
+        i = 0
+
         # An index variable. used for results[]
         e = 0
 
@@ -77,12 +77,12 @@ class Graph:
             print("Edges in the constructed MST")
             for u, v, weight in result:
                 minimumCost += weight
-                print("%d -- %d == %d" % (u, v, weight))
+                print(f"{u} -- {v} == {weight}")
             print("Minimum Spanning Tree", minimumCost)
 
 #Driver code
 if __name__ == "__main__":
-    g = graph(4)
+    g = Graph(4)
     g.addEdge(0, 1, 10)
     g.addEdge(0, 2, 6)
     g.addEdge(0, 3, 5)
