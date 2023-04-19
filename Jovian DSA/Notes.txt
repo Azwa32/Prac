@@ -1,0 +1,12 @@
+Notes for Jovian DSA course
+
+Systematic strategy to apply for solving problems
+
+1. State the problem clearly. Identify the input and output formats.
+2. Come up with some example inputs & outputs
+3. Come up with a correct solution for the problem. State it in plain English
+4. Implement the solution and test it using example inputs. Fix any bugs
+5. Analyze the algorithm's complexity (time/space) and identify inefficiency. Repeat steps 3 to 6
+
+"Applying the right technique" is where the knowledge of common data structures and algorithms comes in handy
+
