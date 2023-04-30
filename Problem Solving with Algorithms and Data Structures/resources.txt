@@ -1,0 +1,3 @@
+course: https://gjenkinsedu.com/pyds/videos/
+download ebook: https://www.cs.auckland.ac.nz/compsci105s1c/resources/ProblemSolvingwithAlgorithmsandDataStructures.pdf
+youtube playlist: https://www.youtube.com/playlist?list=PLtbC5OfOR8aqA6CJwWTRUITgGpUy1Umr3
