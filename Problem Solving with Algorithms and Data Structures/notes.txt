@@ -1,0 +1,11 @@
+Common function for Big sum_of_n_3
+f(n)            Name
+1               Constant
+log n           Logarithmic
+n               Linear
+n log n         Log Linear
+n2              Quadratic
+n3              Cubic
+2n              Exponential
+
+
