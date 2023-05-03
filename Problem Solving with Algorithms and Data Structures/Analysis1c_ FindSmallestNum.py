@@ -1,6 +1,8 @@
 import time
 from random import randrange
 
+## first function is linear or O(n)
+
 def findMin(alist):
     # initialise the minimum value to the first element in the list
     overallmin = alist[0]
@@ -23,7 +25,9 @@ def findMin(alist):
     # return the overall min element
     return overallmin
 
-### uncomment to run logarithmic algorithim
+
+## second function is log or O(n2)
+### uncomment to run
 '''
 def findMin(alist):
     minsofar = alist[0]
