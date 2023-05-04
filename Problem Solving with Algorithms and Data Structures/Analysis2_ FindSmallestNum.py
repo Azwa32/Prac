@@ -1,3 +1,5 @@
+# find the smallest number
+
 import time
 from random import randrange
 
@@ -30,12 +32,17 @@ def findMin(alist):
 ### uncomment to run
 '''
 def findMin(alist):
+    # initialise minsofar to the first number on the list
     minsofar = alist[0]
     for i in alist:
+        # iterate through alist, for each iteration check if its lower than minsofar
         if i < minsofar:
+            # if so update minsofar to new lowest min
             minsofar = i
+    # return the minso far
     return minsofar
 
+# execution code
 print(findMin([5,4,3,2,1,0]))
 print(findMin([0,4,1,3,2,5]))
 '''
