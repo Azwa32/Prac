@@ -14,6 +14,9 @@ sort()  >> sorts a list ascending by default
 len()   >> returns number of items in a list
 ord()   >> returns the int representing the unicode code of a specified character
 
+--python lib functions--
+array.array() >> more mem efficient than list. contains append() extend() pop()
+
 --tuples() vs lists[]--
 tuples are like lists that cannot be modified
 tuples use () instead of [] like a list
