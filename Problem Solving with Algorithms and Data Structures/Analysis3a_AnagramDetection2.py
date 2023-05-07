@@ -13,9 +13,8 @@ def anagram_solution_2(s1, s2):
     a_list_2 = list(s2)
 
     # sort each list in ascending order. If the words are anagrams they should be a match at this point
-    # NOTE: sort() adds a time complexity cost
-    a_list_1.sort()
-    a_list_2.sort()
+    a_list_1.sort()  # adds a time complexity cost
+    a_list_2.sort()  # adds a time complexity cost
 
     # initialist start search position and matches
     pos = 0

@@ -12,6 +12,7 @@ remove
 --python buit in functions--
 sort()  >> sorts a list ascending by default
 len()   >> returns number of items in a list
+ord()   >> returns the int representing the unicode code of a specified character
 
 --tuples() vs lists[]--
 tuples are like lists that cannot be modified
