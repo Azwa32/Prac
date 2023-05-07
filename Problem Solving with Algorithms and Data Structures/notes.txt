@@ -1,4 +1,24 @@
-Common function for Big sum_of_n_3
+--python list functions--
+append
+insert
+pop
+sort
+reverse
+del
+index
+count
+remove
+
+--python buit in functions--
+sort()  >> sorts a list ascending by default
+len()   >> returns number of items in a list
+
+--tuples() vs lists[]--
+tuples are like lists that cannot be modified
+tuples use () instead of [] like a list
+
+
+--Common function for Big sum_of_n_3--
 f(n)            Name
 1               Constant
 log n           Logarithmic
@@ -7,5 +27,7 @@ n log n         Log Linear
 n2              Quadratic
 n3              Cubic
 2n              Exponential
+
+
 
 
