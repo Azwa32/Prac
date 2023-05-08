@@ -1,43 +1,36 @@
-# anagram detection, Count and Compare
-# this approach counts the number of times each letter occours in each string
+# anagram detection, Sort and Compare
 
-# creates 2 lists the size of the alphabet
-def anagram_solution_4(s1, s2):
-    c1 = [0] * 26
-    c2 = [0] * 26
+# At first glance you may be tempted to think that this algorithm is O(n), 
+# since there is one simple iteration to compare the n characters after the sorting process. 
+# However, the two calls to the Python sort method are not without their own cost. As we will see in Chapter 5, 
+# sorting is typically either O(n2) or O(n log n), so the sorting operations dominate the iteration. 
+# In the end, this algorithm will have the same order of magnitude as that of the sorting process.
 
-    # update c1 & c2 arrays with the position of each 
-    # alphabet letter showing the number of times it occours in the anagram
 
-    # for each character in s1
-    for i in range(len(s1)):
-        # initialise pos to the characters ascii #
-        pos = ord(s1[i]) - ord("a")
-        # add 1 to the ascii location in the c1 array
-        c1[pos] = c1[pos] + 1
-        print(c1)
+def anagram_solution_2(s1, s2):
+    # initialise both words to a list each
+    a_list_1 = list(s1)
+    a_list_2 = list(s2)
 
-    # same as above for s2/c2
-    for i in range(len(s2)):
-        pos = ord(s2[i]) - ord("a")
-        c2[pos] = c2[pos] + 1
+    # sort each list in ascending order. If the words are anagrams they should be a match at this point
+    a_list_1.sort()  # adds a time complexity cost
+    a_list_2.sort()  # adds a time complexity cost
 
-    # compare the c1 & c2 alphabet lists to one another, if any differences then False
+    # initialist start search position and matches
+    pos = 0
+    matches = True
 
-    # initialise variables
-    j = 0
-    still_ok = True
-    # iterate through the alphabet list and compare the two
-    while j < 26 and still_ok:
-        if c1[j] == c2[j]:
-            j = j + 1
+    # run while position is less than the length of the s1 string and meets these cond.
+    while pos < len(s1) and matches:
+        # if the position in the 2 lists matches then iterate the position, otherwise set to False
+        if a_list_1[pos] == a_list_2[pos]:
+            pos = pos + 1
         else:
-            # set to false if the lists are different
-            still_ok = False
+            matches = False
 
-    return still_ok
+    return matches
 
 
-print(anagram_solution_4("apple", "pleap"))  # expected: True
-print(anagram_solution_4("abcd", "dcba"))  # expected: True
-print(anagram_solution_4("abcd", "dcda"))  # expected: False
+print(anagram_solution_2("apple", "pleap"))  # expected: True
+print(anagram_solution_2("abcd", "dcba"))  # expected: True
+print(anagram_solution_2("abcd", "dcda"))  # expected: False
