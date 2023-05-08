@@ -10,9 +10,16 @@ count
 remove
 
 --python buit in functions--
-sort()  >> sorts a list ascending by default
-len()   >> returns number of items in a list
-ord()   >> returns the int representing the unicode code of a specified character
+sort()      >> sorts a list ascending by default
+len()       >> returns number of items in a list
+ord()       >> returns the int representing the unicode code of a specified character
+Stack()     >> creates a new stack that is empty. It needs no parameters and returns an empty stack.
+push(item)  >> push(item) adds a new item to the top of the stack. It needs the item and returns nothing.
+pop()       >> removes the top item from the stack. It needs no parameters and returns the item. The stack is modified.
+peek()      >> returns the top item from the stack but does not remove it. It needs no parameters. The stack is not modified.
+is_empty()  >> tests to see whether the stack is empty. It needs no parameters and returns a boolean value.
+size()      >> returns the number of items on the stack. It needs no parameters and returns an integer.
+
 
 --python lib functions--
 array.array() >> more mem efficient than list. contains append() extend() pop()
@@ -34,7 +41,8 @@ n3              Cubic
 2n              Exponential
 
 
---Big O Efficiency of Python List Operators--
+--Big O Efficiency of Python Operators--
+--List--
 index []		    O(1)
 index assignment	O(1)
 append			    O(1)
@@ -52,5 +60,22 @@ concatenate		    O(k)
 sort			    O(n log n)
 multiply		    O(nk)
 
+--Dict--
+copy		        O(n)
+get item	        O(1)
+set item	        O(1)
+delete item	        O(1)
+contains (in)	    O(1)
+iteration	        O(n)
 
 
+
+--Linear Structures--
+Datastructure that has 2 ends
+front > back
+top > bottom
+etc
+
+--Stack--
+Is an ordered collection of items where the addition of new items and the removal of existing itemd
+always takes place at the same end, a bit like an 'in tray'
