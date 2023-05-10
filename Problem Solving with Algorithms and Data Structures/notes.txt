@@ -19,6 +19,8 @@ pop()       >> removes the top item from the stack. It needs no parameters and r
 peek()      >> returns the top item from the stack but does not remove it. It needs no parameters. The stack is not modified.
 is_empty()  >> tests to see whether the stack is empty. It needs no parameters and returns a boolean value.
 size()      >> returns the number of items on the stack. It needs no parameters and returns an integer.
+count()     >> returns the number of elements with the specified value.
+set()       >> Sets are used to store multiple items in a single variable. Set items are unordered, unchangeable, and do not allow duplicate values.
 
 
 --python lib functions--
