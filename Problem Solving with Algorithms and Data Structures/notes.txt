@@ -21,6 +21,7 @@ is_empty()  >> tests to see whether the stack is empty. It needs no parameters a
 size()      >> returns the number of items on the stack. It needs no parameters and returns an integer.
 count()     >> returns the number of elements with the specified value.
 set()       >> Sets are used to store multiple items in a single variable. Set items are unordered, unchangeable, and do not allow duplicate values.
+enumerate() >> turns a list into a dict with an int as the key for each entry
 
 
 --python lib functions--
