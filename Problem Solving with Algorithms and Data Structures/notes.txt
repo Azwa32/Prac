@@ -13,7 +13,7 @@ remove
 sort()      >> sorts a list ascending by default
 len()       >> returns number of items in a list
 ord()       >> returns the int representing the unicode code of a specified character
-Stack()     >> creates a new stack that is empty. It needs no parameters and returns an empty stack.
+stack()     >> creates a new stack that is empty. It needs no parameters and returns an empty stack.
 push(item)  >> push(item) adds a new item to the top of the stack. It needs the item and returns nothing.
 pop()       >> removes the top item from the stack. It needs no parameters and returns the item. The stack is modified.
 peek()      >> returns the top item from the stack but does not remove it. It needs no parameters. The stack is not modified.
