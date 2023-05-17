@@ -10,18 +10,36 @@ count
 remove
 
 --python buit in functions--
-sort()      >> sorts a list ascending by default
-len()       >> returns number of items in a list
-ord()       >> returns the int representing the unicode code of a specified character
-stack()     >> creates a new stack that is empty. It needs no parameters and returns an empty stack.
-push(item)  >> push(item) adds a new item to the top of the stack. It needs the item and returns nothing.
-pop()       >> removes the top item from the stack. It needs no parameters and returns the item. The stack is modified.
-peek()      >> returns the top item from the stack but does not remove it. It needs no parameters. The stack is not modified.
-is_empty()  >> tests to see whether the stack is empty. It needs no parameters and returns a boolean value.
-size()      >> returns the number of items on the stack. It needs no parameters and returns an integer.
-count()     >> returns the number of elements with the specified value.
-set()       >> Sets are used to store multiple items in a single variable. Set items are unordered, unchangeable, and do not allow duplicate values.
-enumerate() >> turns a list into a dict with an int as the key for each entry
+sort()          >> Sorts a list in ascending order (by default).
+len()           >> Returns the number of items in a list.
+ord()           >> Returns the integer representing the Unicode code of a specified character.
+stack()         >> Creates a new stack that is empty. It requires no parameters and returns an empty stack.
+push(item)      >> Adds a new item to the top of the stack. It requires the item and returns nothing.
+pop()           >> Removes the top item from the stack. It requires no parameters and returns the item. The stack is modified.
+peek()          >> Returns the top item from the stack but does not remove it. It requires no parameters. The stack is not modified.
+is_empty()      >> Tests whether the stack is empty. It requires no parameters and returns a boolean value.
+size()          >> Returns the number of items on the stack. It requires no parameters and returns an integer.
+count()         >> Returns the number of elements with the specified value.
+set()           >> Creates a set to store multiple items. Sets are unordered, unchangeable, and do not allow duplicate values.
+split()         >> Splits a string into a list of substrings based on a delimiter.
+join()          >> Concatenates elements of a list into a single string using a specified delimiter.
+lower()         >> Converts a string to lowercase.
+upper()         >> Converts a string to uppercase.
+replace()       >> Replaces occurrences of a substring in a string with another substring.
+keys()          >> Returns a list of keys in a dictionary.
+values()        >> Returns a list of values in a dictionary.
+items()         >> Returns a list of key-value pairs in a dictionary.
+get()           >> Returns the value associated with a specified key in a dictionary.
+sorted()        >> Returns a new sorted list based on the elements of an iterable.
+min()           >> Returns the smallest element in an iterable or a series of arguments.
+max()           >> Returns the largest element in an iterable or a series of arguments.
+sum()           >> Returns the sum of all elements in an iterable.
+abs()           >> Returns the absolute value of a number.
+pow()           >> Raises a number to a specified power.
+round()         >> Rounds a number to a specified precision.
+math.sqrt()     >> Returns the square root of a number.
+math.factorial()>> Returns the factorial of a number.
+enumerate()     >> turns a list into a dict with an int as the key for each entry
 
 
 --python lib functions--
