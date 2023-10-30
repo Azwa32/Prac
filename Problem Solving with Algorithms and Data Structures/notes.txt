@@ -10,6 +10,7 @@ count
 remove
 
 --python buit in functions--
+list()          >> turns a string of characters into a list
 sort()          >> Sorts a list in ascending order (by default).
 len()           >> Returns the number of items in a list.
 ord()           >> Returns the integer representing the Unicode code of a specified character.
